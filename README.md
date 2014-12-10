@@ -15,20 +15,20 @@ Input and output parameters are optional depending on the nature of the script. 
 
 ```xml
 <serverActionRequest>
-<mode>SCRIPT</mode>
-<filePath>getFolderNameById.js</filePath>
-<inputParams>
-<inputParam>301YVD5_0001SVVK100000V</inputParam>
-</inputParams>
+    <mode>SCRIPT</mode>
+    <filePath>getFolderNameById.js</filePath>
+    <inputParams>
+        <inputParam>301YVD5_0001SVVK100000V</inputParam>
+    </inputParams>
 </serverActionRequest>
 ```
 
 **XML Response**
 ```xml
 <serverActionResponse>
-<outputParams>
-<outputParam>January Invoices</outputParam>
-</outputParams>
+    <outputParams>
+        <outputParam>January Invoices</outputParam>
+    </outputParams>
 </serverActionResponse>
 ```
 
@@ -39,11 +39,11 @@ Input and output parameters are optional depending on the nature of the script. 
 **JSON Request**
 ```json
 {
-"mode": "SCRIPT",
-"filePath": "getFolderNameById.js",
-"inputParams": [
-"301YVD5_0001SVVK100000V"
-]
+    "mode": "SCRIPT",
+    "filePath": "getFolderNameById.js",
+    "inputParams": [
+        "301YVD5_0001SVVK100000V"
+    ]
 }
 ```
 
@@ -53,10 +53,9 @@ Input and output parameters are optional depending on the nature of the script. 
 **JSON Response**
 ```json
 {
-
-"outputParams": [
-"January Invoices"
-]
+    "outputParams": [
+        "January Invoices"
+    ]
 }
 ```
 
