@@ -13,7 +13,7 @@ Input and output parameters are optional depending on the nature of the script. 
 
 **XML Request**
 
-
+```xml
 <serverActionRequest>
 <mode>SCRIPT</mode>
 <filePath>getFolderNameById.js</filePath>
@@ -21,16 +21,16 @@ Input and output parameters are optional depending on the nature of the script. 
 <inputParam>301YVD5_0001SVVK100000V</inputParam>
 </inputParams>
 </serverActionRequest>
-
+```
 
 **XML Response**
-
+```xml
 <serverActionResponse>
 <outputParams>
 <outputParam>January Invoices</outputParam>
 </outputParams>
 </serverActionResponse>
-
+```
 
 
 ----------
