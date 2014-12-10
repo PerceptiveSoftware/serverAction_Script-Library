@@ -37,7 +37,7 @@ Input and output parameters are optional depending on the nature of the script. 
 
 
 **JSON Request**
-
+```json
 {
 "mode": "SCRIPT",
 "filePath": "getFolderNameById.js",
@@ -45,19 +45,20 @@ Input and output parameters are optional depending on the nature of the script. 
 "301YVD5_0001SVVK100000V"
 ]
 }
+```
 
 
 
 
 **JSON Response**
-
+```json
 {
 
 "outputParams": [
 "January Invoices"
 ]
 }
-
+```
 
 
 
